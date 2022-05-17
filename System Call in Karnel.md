@@ -9,6 +9,12 @@ sudo apt-get install libssl-dev
 sudo apt-get install libelf-dev
 sudo apt-get update
 sudo apt-get upgrade
+sudo apt install fakeroot
+sudo apt install build-essential
+sudo apt install ncurses-dev
+sudo apt install xz-utils
+sudo apt install libssl-dev
+sudo apt install flex
 ```
 ## Download Kernel Source:
 ````
