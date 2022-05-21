@@ -60,7 +60,7 @@ SYSCALL_DEFINE2(my_syscall_2, int, a, int, b)
 ## Connect our System Call to the Kernel: 
 Open Makefile of Kernel:
 ````
-vim Makefile
+vim kernel/Makefile
 ````
 Code in Makefile search for "obj-y = " 
 Add like :
