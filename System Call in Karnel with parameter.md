@@ -94,9 +94,9 @@ Add "335 common helloworld sys_helloworld"
 After adding it will look like this:
 ````
 334	common	rseq			sys_rseq
-335     common     my_syscall_0     __x64_sys_my_syscall_0
-336     common     my_syscall_1     __x64_sys_my_syscall_1
-337     common     my_syscall_2     __x64_sys_my_syscall_2
+335     common     my_syscall_0     sys_my_syscall_0
+336     common     my_syscall_1     sys_my_syscall_1
+337     common     my_syscall_2     sys_my_syscall_2
 ````
 ## Compile The Kernel:
 Clean Build Directory:
