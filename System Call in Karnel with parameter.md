@@ -82,7 +82,9 @@ vim include/linux/syscalls.h
 Goto bottom of the file
 Add:
 ````
-asmlinkage long sys_helloworld(void);
+asmlinkage long sys_my_syscall_0(void);
+asmlinkage long sys_my_syscall_1(int);
+asmlinkage long sys_my_syscall_2(int, int);
 ````
 Open "arch/x86/entry/syscalls/syscall_64.tbl" file:
 ````
@@ -96,12 +98,6 @@ After adding it will look like this:
 336     common     my_syscall_1     __x64_sys_my_syscall_1
 337     common     my_syscall_2     __x64_sys_my_syscall_2
 ````
-modify include/linux/syscalls.h : add those lines below:
-```
-asmlinkage long sys_my_syscall_0(void);
-asmlinkage long sys_my_syscall_1(int);
-asmlinkage long sys_my_syscall_2(int, int);
-```
 ## Compile The Kernel:
 Clean Build Directory:
 ````
