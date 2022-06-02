@@ -148,9 +148,9 @@ Source Code:
 
 int main()
 {
-    printf("1 : %d\n", syscall(335));
-    printf("2 : %d\n", syscall(336, 1));
-    printf("3 : %d\n", syscall(337, 2, 3));
+    printf("1 : %ld\n", syscall(335));
+    printf("2 : %ld\n", syscall(336, 1));
+    printf("3 : %ld\n", syscall(337, 2, 3));
     return 0;
 }
 ````
