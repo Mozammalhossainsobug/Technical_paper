@@ -11,6 +11,7 @@ cat /proc/bus/pci/devices | cut -f1
 cd /sys/bus/pci/devices
 ls
 ```
+>first_value = domain, second_value = bus, third_value = device, fourth_value = function
 ####  Device's configuration registers can be found by reading 
 > /sys/bus/pci/devices/device_address(founded from previous quiery)
 ```
@@ -18,5 +19,5 @@ cd
 cd /sys/bus/pci/devices/0000:00:00.0
 ls
 ```
->first_value = domain, second_value = bus, third_value = device, fourth_value = function
+>meta data
 
