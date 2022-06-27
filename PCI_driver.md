@@ -12,7 +12,7 @@ cd /sys/bus/pci/devices
 ls
 ```
 ####  Device's configuration registers can be found by reading 
-> /sys/bus/pci/devices/device_address(found before)
+> /sys/bus/pci/devices/device_address(founded from previous quiery)
 ```
 cd
 cd /sys/bus/pci/devices/0000:00:00.0
