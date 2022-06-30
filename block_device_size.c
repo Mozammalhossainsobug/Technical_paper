@@ -5,7 +5,7 @@
 
 // ...
 
-const char* pathname="/dev/sda";
+const char* pathname="/dev/sda";  //add your_device instead of sda
 int fd=open(pathname,O_RDONLY);
 if (fd==-1) {
   die("%s",strerror(errno));
