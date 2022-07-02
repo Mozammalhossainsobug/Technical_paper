@@ -36,5 +36,9 @@ dd if=/dev/loop29
 ```
 losetup -d /dev/loop29
 ```
+:smiling_face_with_three_hearts: :star_struck: Congratulation you've created,written,read,deleted a block device.
 
+
+
+for more details (https://www.redhat.com/en/blog/linux-block-devices-hints-debugging-and-new-developments)
 
