@@ -24,7 +24,7 @@ ls -al /dev/loop29
 
 ### Writing in a block device
 ```
-echo Welcome_to_virtual_block_device >/dev/loop0
+echo Welcome_to_virtual_block_device >/dev/loop29
 ```
 >![message writing](https://github.com/Mozammalhossainsobug/Technical_paper/blob/main/Screenshot%20from%202022-07-02%2023-00-27.png)
 ### Reading from a block device
