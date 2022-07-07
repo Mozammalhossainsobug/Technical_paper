@@ -1,4 +1,4 @@
-function to get metadata of block device's:
+function to get metadata of block device's partition:
 ```
 void __init printk_all_partitions(void)
 {
