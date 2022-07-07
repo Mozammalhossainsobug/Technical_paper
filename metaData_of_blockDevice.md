@@ -1,4 +1,4 @@
-We need a function to get metaData and the function is:
+function to get metadata of block device's:
 ```
 void __init printk_all_partitions(void)
 {
@@ -58,6 +58,6 @@ void __init printk_all_partitions(void)
 ```
 __init printk_all_partitions()
 ```
-> it'll show all ther partition information in blockDevice
+> it'll show all partition's information in blockDevice
 
 
