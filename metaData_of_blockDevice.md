@@ -48,7 +48,7 @@ void __init printk_all_partitions(void)
 ```
 > but this function is already decleared in genhd.h header file. So there is no need to define it.
 
-## By following next step , we'll get our metadata
+## By following next steps, we'll get our metadata
 
 ### Step-1: add header file to kernel module
 ```
