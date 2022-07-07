@@ -58,5 +58,6 @@ void __init printk_all_partitions(void)
 ```
 __init printk_all_partitions()
 ```
+> it'll show all ther partition information in blockDevice
 
 
