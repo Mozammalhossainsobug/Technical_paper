@@ -52,7 +52,7 @@ void __init printk_all_partitions(void)
 
 ### Step-1: add header file to kernel module
 ```
-#include <linux/genhd.h>
+#include<linux/genhd.h>
 ```
 ### Step-2: Call the function
 ```
