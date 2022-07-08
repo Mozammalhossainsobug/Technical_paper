@@ -29,4 +29,5 @@ Make Ccache as default
 ```
 export PATH="/usr/lib/ccache:$PATH"
 ```
+> use this command before every compilation
 
