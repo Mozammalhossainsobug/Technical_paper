@@ -1,28 +1,23 @@
-## Turn into super user
+Turn into super user
 ```
 sudo su
 ```
-## Get Update to your system
+## Prerequisite
 ```
 apt update
-```
-## To get able to download
-```
 apt install wget
-```
-## Install neccessay tools (vim, ccache, build-essential(gcc,c++))
-```
 apt install wget vim ccache build-essential
 ```
-## Download WebP
+## Download and Extract WebP
+Download
 ```
 wget https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.2.2.tar.gz
 ```
-## Extract the downloaded file
+Extract
 ```
 tar xzf libwebp-1.2.2.tar.gz
 ```
-## Get into the directory
+Get into the directory
 ```
 cd libwebp-1.2.2
 ```
@@ -30,7 +25,7 @@ cd libwebp-1.2.2
 ```
 ./configure
 ```
-## Make Ccache as default
+Make Ccache as default
 ```
 export PATH="/usr/lib/ccache:$PATH"
 ```
