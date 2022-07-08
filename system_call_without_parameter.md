@@ -1,4 +1,4 @@
-### Building Environment
+# Building Environment
 ```
 sudo apt install git 
 sudo apt install make 
@@ -14,13 +14,13 @@ sudo apt install libelf-dev 
 sudo apt install bison 
 sudo apt install libncurses-dev
 ```
-### Download & Extract Kernel Source
+# Download & Extract Kernel Source
 ```
 wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.7.tar.xz
 tar xvf linux-5.17.7.tar.xz
 cd linux-5.17.7
 ```
-### Write System Call Source Code
+# Write System Call Source Code
 Create a directory to hold system call source code.
 ```
 mkdir helloworld
@@ -47,7 +47,7 @@ Put this in helloworld Makefile & save.
 ```
 obj-y:= helloworld.o
 ```
-### Connect Our System Call To The Kernel
+# Connect Our System Call To The Kernel
 Open Makefile.
 ```
 vim Makefile
@@ -79,7 +79,7 @@ It should look like this.
 334	common	rseq			sys_rseq
 335	common	helloworld		sys_helloworld
 ```
-### Compile The Kernel
+# Compile The Kernel
 Clean Build Directory.
 ```
 make clean
@@ -101,7 +101,7 @@ Start the build.
 ```
 make -j$(nproc)
 ```
-### Install The Modules & Kernel
+# Install The Modules & Kernel
 ```
 sudo make modules_install -j$(nproc)
 sudo make install -j$(nproc)
@@ -110,7 +110,7 @@ Reboot to the new kernel.
 ```
 reboot
 ```
-### Test Our System Call
+# Test Our System Call
 Create a file named "test.c".
 ```
 vim test.c
